@@ -1,0 +1,13 @@
+train:  C:/Users/Piko/Documents/Tugas Kuliah/Skripsi/Yolo/datasetrisjal/train/images
+val:  C:/Users/Piko/Documents/Tugas Kuliah/Skripsi/Yolo/datasetrisjal/valid/images
+test:  C:/Users/Piko/Documents/Tugas Kuliah/Skripsi/Yolo/datasetrisjal/test/images
+
+nc: 4
+names: ['bus', 'mobil', 'motor', 'truk']
+
+roboflow:
+  workspace: kreto-jowo
+  project: mlakuo-kreto
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/kreto-jowo/mlakuo-kreto/dataset/1

@@ -1,0 +1,13 @@
+train:  C:/Users/Piko/Documents/Tugas Kuliah/Skripsi/Yolo/dataset_split/train/images
+val:  C:/Users/Piko/Documents/Tugas Kuliah/Skripsi/Yolo/dataset_split/val/images
+test:  C:/Users/Piko/Documents/Tugas Kuliah/Skripsi/Yolo/dataset_split/test/images
+
+nc: 4
+names: ['Bus', 'Motor', 'Truck', 'mobil']
+
+roboflow:
+  workspace: cb-ylffh
+  project: my-first-project-om9se
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cb-ylffh/my-first-project-om9se/dataset/3

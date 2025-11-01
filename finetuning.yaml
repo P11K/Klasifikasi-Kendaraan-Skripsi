@@ -1,0 +1,6 @@
+train:  C:/Users/Piko/Documents/Tugas Kuliah/Skripsi/Yolo/datanyarmaneh/train/images
+val:  C:/Users/Piko/Documents/Tugas Kuliah/Skripsi/Yolo/datanyarmaneh/val/images
+test:  C:/Users/Piko/Documents/Tugas Kuliah/Skripsi/Yolo/datanyarmaneh/test/images
+
+nc: 4
+names: ['Bus', 'Motor', 'Truck', 'mobil']

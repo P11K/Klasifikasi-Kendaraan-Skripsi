@@ -1,0 +1,6 @@
+train:  C:/Users/Piko/Documents/Tugas Kuliah/Skripsi/Yolo/dataset/train/images
+val:  C:/Users/Piko/Documents/Tugas Kuliah/Skripsi/Yolo/Anotasi Malam/images
+test:  C:/Users/Piko/Documents/Tugas Kuliah/Skripsi/Yolo/dataset/test/images
+
+nc: 4
+names: ['Bus', 'Motor', 'Truck', 'mobil']

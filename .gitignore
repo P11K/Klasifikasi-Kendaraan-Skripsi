@@ -1,0 +1,18 @@
+# Abaikan file besar dan hasil training YOLO
+runs/
+*.pt
+*.avi
+*.webm
+*.mp4
+*.zip
+*.xlsx
+
+# Abaikan folder sementara
+__pycache__/
+.vscode/
+Test Pagi/
+Test Malam/
+
+# Abaikan hasil output sementara
+output.avi
+object_counting_output.avi

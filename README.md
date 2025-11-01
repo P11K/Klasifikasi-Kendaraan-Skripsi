@@ -18,8 +18,6 @@ A final-year thesis project implementing **YOLOv8** for vehicle **detection, cou
 - Real-time detection & tracking  
 - Multi-class classification (car, motorbike, truck)  
 - Export results to Excel  
-- GUI interface control (Play / Pause / Stop)
-
 ---
 
 ## 📦 Installation

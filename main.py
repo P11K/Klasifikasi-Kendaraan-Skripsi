@@ -32,21 +32,21 @@ class VehicleCounterApp:
         self.root.state('zoomed')
         self.roi_colors = ["#FF0000", "#00FF00", "#0000FF"] 
         self.device = 'cuda' if torch.cuda.is_available() else 'cpu'
-        self.model = YOLO('runs/detect/fine/weights/best.pt').to(self.device)
-        # self.model = YOLO("yolov8x.pt").to(self.device)  # Ganti sesuai path model Anda
+        # self.model = YOLO('runs/detect/fine/weights/best.pt').to(self.device)
+        self.model = YOLO("yolov8x.pt").to(self.device)  # Ganti sesuai path model Anda
         
-        self.vehicle_classes = {
-            0: ("Bus", "#4CAF50"),
-            1: ("Motor", "#2196F3"),
-            2: ("Truck", "#FFC107"),
-            3: ("Mobil", "#E91E63")
-        }
         # self.vehicle_classes = {
-        #     5: ("Bus", "#4CAF50"),
-        #     3: ("Motor", "#2196F3"),
-        #     7: ("Truck", "#FFC107"),
-        #     2: ("Mobil", "#E91E63")
+        #     0: ("Bus", "#4CAF50"),
+        #     1: ("Motor", "#2196F3"),
+        #     2: ("Truck", "#FFC107"),
+        #     3: ("Mobil", "#E91E63")
         # }
+        self.vehicle_classes = {
+            5: ("Bus", "#4CAF50"),
+            3: ("Motor", "#2196F3"),
+            7: ("Truck", "#FFC107"),
+            2: ("Mobil", "#E91E63")
+        }
 
         self.track_history = {}
         self.lines_info = []
@@ -121,8 +121,8 @@ class VehicleCounterApp:
 
             self.reset_state()
             self.save_btn.config(state='disabled')
-            self.model = YOLO('runs/detect/fine/weights/best.pt').to(self.device)
-            # self.model = YOLO("yolov8x.pt").to(self.device)  # Ganti sesuai path model Anda
+            # self.model = YOLO('runs/detect/fine/weights/best.pt').to(self.device)
+            self.model = YOLO("yolov8x.pt").to(self.device)  # Ganti sesuai path model Anda
 
             self.video_path = video_file
             self.video_frame.config(text=os.path.basename(self.video_path))

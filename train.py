@@ -5,7 +5,7 @@ import os
 
 def main():
     # Load model
-    model = YOLO('runs/detect/Finall/weights/last.pt')  # atau 'yolov8l.pt'
+    model = YOLO('yolov8x.pt')  # atau 'yolov8l.pt'
 
     # Train model
     model.train(

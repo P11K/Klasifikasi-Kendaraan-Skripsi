@@ -1,0 +1,13 @@
+train:  C:/Users/Piko/Documents/Tugas Kuliah/Skripsi/Yolo/Test Malam/train/images
+val:  C:/Users/Piko/Documents/Tugas Kuliah/Skripsi/Yolo/Test Malam/valid/images
+test:  C:/Users/Piko/Documents/Tugas Kuliah/Skripsi/Yolo/Test Malam/test/images
+
+nc: 4
+names: ['Bus', 'Motor', 'Truck', 'mobil']
+
+roboflow:
+  workspace: dataset-gdj5p
+  project: gae-data-test
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dataset-gdj5p/gae-data-test/dataset/1

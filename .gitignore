@@ -8,10 +8,6 @@ runs/
 *.xlsx
 
 # Abaikan folder sementara
-__pycache__/
-.vscode/
-Test Pagi/
-Test Malam/
 
 # Abaikan hasil output sementara
 output.avi

@@ -1,6 +1,6 @@
 # Abaikan file besar dan hasil training YOLO
-runs/
-*.pt
+
+*yolov8x.pt
 *.avi
 *.webm
 *.mp4

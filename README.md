@@ -33,10 +33,10 @@ Click the **"Upload Video"** button to select the video you want to analyze.
 ### **Step 2 — Set ROI Line**
 After the video loads:
 
-    1. Click **two points** on the video frame to draw the ROI line.  
-    2. **First click:** one side of the road  
-    3. **Second click:** the opposite side  
-    4. A **line** will appear—this is the counting boundary.
+1. Click **two points** on the video frame to draw the ROI line.  
+2. **First click:** one side of the road  
+3. **Second click:** the opposite side
+4. A **line** will appear—this is the counting boundary.
 
 ---
 

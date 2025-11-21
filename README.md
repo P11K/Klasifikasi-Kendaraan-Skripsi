@@ -65,8 +65,7 @@ Click **"Export to Excel"** to save your vehicle counting data.
 The exported report includes:
 
 - Vehicle counts by category  
-- Timestamp logs  
-- Road name & traffic direction  
+- Road name 
 - Total summary of all counts  
 
 ---
@@ -75,7 +74,8 @@ The exported report includes:
 - Live video display with YOLO detection overlays  
 - Counters for each vehicle class:
   - Car  
-  - Motorbike  
+  - Motorbike
+  - Bus
   - Truck  
 - Visual ROI line for verification  
 - Excel report containing complete analysis data  

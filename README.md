@@ -86,5 +86,5 @@ The exported report includes:
 ```bash
 git clone https://github.com/P11K/Klasifikasi-Kendaraan-Skripsi.git
 cd Klasifikasi-Kendaraan-Skripsi
-pip install -r requirements.txt
+conda env create -f environment.yaml
 python main.py

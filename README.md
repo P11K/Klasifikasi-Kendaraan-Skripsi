@@ -37,7 +37,7 @@ After the video loads:
 2. **First click:** one side of the road  
 3. **Second click:** the opposite side
 4. A **line** will appear—this is the counting boundary.
-
+### _Max 3 ROI Line_
 ---
 
 ### **Step 3 — Configure Road Information**

@@ -86,5 +86,5 @@ The exported report includes:
 ```bash
 git clone https://github.com/P11K/Klasifikasi-Kendaraan-Skripsi.git
 cd Klasifikasi-Kendaraan-Skripsi
-conda env create -f environment.yaml
+conda env create -f environment.yml
 python main.py
